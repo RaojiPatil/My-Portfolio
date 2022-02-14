@@ -17,36 +17,36 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
         <Col md={6} className="project-card" >
             <ProjectCards
-              imgPath="https://i.ibb.co/yFBMBhT/h.png"
-              title="Cult-fit clone"
-              description="At Cult, It makes fitness is fun and easy. Our workouts can be done both at a cult center and at home with the help of do-it-yourself workout videos. Cult gives the best in technology to give a world-class experience. You can book classes, follow workout videos, Order food, buy sports Gear, Health care, and mind Therapy."
+              imgPath="/images/zoomcar.png"
+              title="ZoomCar Clone"
+              description="A Web application that provides self-drive car rental service. Car booking using preferred time and date. Location-based Car booking. Integrated Paytm Payment Gateway. This is a collaborative project built by a team of 6 executed in 7 days."
               tech="Tech-Stacks"
-              techD="Html | Javascript | Tailwind | Css | MongoDb | Express "
-              link="https://masaicult.herokuapp.com/"
-              a="https://github.com/pummysh/Cultfit.com"
+              techD="Html | CSS | Javascript | Tailwind | MongoDb | Express "
+              link="https://zoomcar-backend.herokuapp.com/login"
+              a="https://github.com/RaojiPatil/ZoomCar-Clone"
             />
           </Col>
           <Col md={6} className="project-card">
             <ProjectCards
-              imgPath="https://i.ibb.co/x7cpTTR/y.png"
-              title="Yes-style clone"
-              description="YesStyle.com is the first online retailer in Asia to globally distribute a wide range of lifestyle and fashion products from the region."
+              imgPath="/images/healthmug.png"
+              title="HealtMug clone"
+              description="Healthmug is an E-commerce website providing medicines at the most reasonable prices, This is collaborative project built by a team of 5 executed in 7 days."
               tech="Tech-Stacks"
-              techD="Html | Javascript | Css "
-              link="https://yesstyleclone.netlify.app/"
-              a="https://github.com/pummysh/YesStyle"
+              techD="Html | CSS | Javascript"
+              link="https://salavisushant.github.io/Healthmug-final.github.io/"
+              a="https://github.com/RaojiPatil/Healthmug-clone-cw-project"
             />
           </Col>
 
           <Col md={6} className="project-card">
             <ProjectCards
-              imgPath="/images/link.png"
-              title="LinkedIn"
-              description="This is the clone of LinkedIn, which is a web application primarily used for professional networking and career development."
+              imgPath="/images/bewakoof.png"
+              title="Bewakoof clone"
+              description="Bewakoof is a lifestyle fashion brand that makes creative and distinctive fashion apparel, This is a solo project build by me and executed in 5 days."
               tech="Tech-Stacks"
-              techD="React | Redux | Firebase | Styled-Components "
-              link="https://linkedin-production-app.web.app/"
-              a="https://github.com/pummysh/linkedin-clone-project"
+              techD="Html | CSS | Javascript"
+              link="https://raojipatil.github.io/Bewakoof.github.io/"
+              a="https://github.com/RaojiPatil/Bewakoof-Website-Clone"
             />
           </Col>
 
@@ -56,3 +56,6 @@ function Projects() {
   );
 }
 export default Projects;
+
+
+

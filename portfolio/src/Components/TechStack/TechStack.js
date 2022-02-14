@@ -59,7 +59,7 @@ function Techstack() {
       
       <Col xs={4} md={2} className="tech-icons">
         <DiHtml5 />
-        <p>Html5</p>
+        <p>Html</p>
       </Col>
       
       <Col xs={4} md={2} className="tech-icons">

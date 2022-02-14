@@ -12,18 +12,22 @@ function SelfIntro() {
               LET ME <span className="wight"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              Hi,👋 I'm <span style={{color: "#0A81Ac" , fontStyle:"italic"}}>Raoji Patil</span> an aspiring and determined <span style={{color: "#0A81AB" , fontStyle:"italic"}}>Full Stack Web Developer</span>, curious to explore different industry-standard tech stacks and environments.
-              Skilled in the <span style={{color: "#0A81AB" , fontStyle:"italic"}}>MERN stack</span> and willing to start a career with an organization that provides an opportunity to improve skills and knowledge gained as well as to grow along with the organization’s goal.
-              <br/>
+              Hi,👋 I'm <span style={{color: "#0A81Ac" , fontStyle:"italic"}}>Raoji Patil</span> an aspiring and determined <span style={{color: "#0A81AB" , fontStyle:"italic"}}>Full Stack Web Developer</span>,  with strong communication skills, good attention to detail and with the ability to write efficient code using <span style={{color: "#0A81Ac" , fontStyle:"italic"}}>MERN Stack.</span>  
+              I have been studying web development at Masai school and gone through 30 weeks of coding bootcamp. Well versed in coding using Javascript and its frameworks, both in front-end and back-end.
+           I like discovering and learning new things to enhance my skills and make use out of it.
+            
+             <br/>
               <br/>
               I developed passion for coding a few years back when I printed my first <span style={{color: "#0A81AB" , fontStyle:"italic"}}> "Hello world"</span> 😃, that hello world just hits different 😌 . Since then aesthetically functional websites has just been my thing.
             </p>
           </Col>
+          
           {/* <Col md={4} className="myAvtar">
             <Tilt>
               <img src={myImg} className="img-fluid" alt="avatar" />
             </Tilt>
           </Col> */}
+
         </Row>
         <Row>
           <Col md={12} className="home-about-social">

@@ -97,7 +97,7 @@ function Header() {
          
 
 
-          {/* <Nav.Item className="fork-btn">
+          <Nav.Item className="fork-btn">
           <Link to="contact">
           <Button onClick={rel}
                 target="_blank"
@@ -106,7 +106,7 @@ function Header() {
                 Contact
           </Button>
           </Link>
-          </Nav.Item> */}
+          </Nav.Item>
 
          
 
