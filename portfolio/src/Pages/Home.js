@@ -17,11 +17,11 @@ function Home() {
        
         <Container className="home-content">
           <Row>
-            <Col md={5} className="home-profile" style={{ paddingBottom: 20 }}>
+            <Col md={4} className="home-profile" style={{ paddingRight: 30, paddingLeft: 20, paddingTop: 50, marginRight: 87, }}>
               <img src={myImg} alt="home pic" className="img-fluid" />
             </Col>
-            <Col md={7} className="home-header">
-              <h1  className="heading">
+            <Col md={7} className="home-header" >
+              <h1  className="heading" >
                 Hi There! <span className="wave" role="img" aria-labelledby="wave">👋🏻</span>
               </h1>
 
