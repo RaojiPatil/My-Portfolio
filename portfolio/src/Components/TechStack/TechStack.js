@@ -9,6 +9,7 @@ import {
   DiGithubBadge,
   DiBootstrap,
   DiHtml5,
+  DiCss3,
   
 } from "react-icons/di";
 import {SiRedux,SiExpress,SiTailwindcss } from "react-icons/si";
@@ -24,42 +25,42 @@ function Techstack() {
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
      
     <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
-        <p>React</p>
+        <DiHtml5 />
+        <p>HTML</p>
       </Col>
 
     <Col xs={4} md={2} className="tech-icons">
-        <SiRedux />
-        <p>Redux</p>
+        <DiCss3 />
+        <p>CSS</p>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiExpress />
-        <p>Express</p>
-      </Col>
-
-      <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
-        <p>Mongodb</p>
-      </Col>
-      
-      <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
-        <p>Nodejs</p>
-      </Col>
-
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
         <p>Javascript</p>
       </Col>
+
       <Col xs={4} md={2} className="tech-icons">
-        <SiTailwindcss />
-        <p>Tailwind</p>
+        <DiReact />
+        <p>React</p>
+      </Col>
+      
+      <Col xs={4} md={2} className="tech-icons">
+        <SiRedux />
+        <p>Redux</p>
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+      <DiMongodb />
+        <p>MongoDB</p>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+      <SiExpress />
+        <p>Express</p>
       </Col>
       
       
       <Col xs={4} md={2} className="tech-icons">
-        <DiHtml5 />
-        <p>Html</p>
+        <DiNodejs />
+        <p>Nodejs</p>
       </Col>
       
       <Col xs={4} md={2} className="tech-icons">

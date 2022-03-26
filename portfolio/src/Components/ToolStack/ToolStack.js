@@ -1,5 +1,6 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
+import { DiGit } from "react-icons/di";
 import {
   SiVisualstudiocode,
   SiPostman,
@@ -28,8 +29,8 @@ function ToolStack() {
       </Col> */}
       
       <Col xs={4} md={2} className="tech-icons">
-        <SiHeroku />
-        <p>Heroku</p>
+        <DiGit />
+        <p>Git</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiVercel />

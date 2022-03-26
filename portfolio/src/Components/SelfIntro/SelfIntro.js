@@ -18,7 +18,7 @@ function SelfIntro() {
             
              <br/>
               <br/>
-              I developed passion for coding a few years back when I printed my first <span style={{color: "#0A81AB" , fontStyle:"italic"}}> "Hello world"</span> 😃, that hello world just hits different 😌 . Since then aesthetically functional websites has just been my thing.
+              A few years back, I developed a passion for coding when I printed my first <span style={{color: "#0A81AB" , fontStyle:"italic"}}> "Hello world"</span> 😃, that hello world just hits different 😌 . Since then aesthetically functional websites have just been my thing.
             </p>
           </Col>
           

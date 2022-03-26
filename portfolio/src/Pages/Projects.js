@@ -19,13 +19,27 @@ function Projects() {
             <ProjectCards
               imgPath="/images/zoomcar.png"
               title="ZoomCar Clone"
-              description="A Web application that provides self-drive car rental service. Car booking using preferred time and date. Location-based Car booking. Integrated Paytm Payment Gateway. This is a collaborative project built by a team of 6 executed in 7 days."
+              description="A ZoomCar Web application that provides self-drive car rental services, Car booking using preferred time and date. Location-based Car booking. Integrated Paytm Payment Gateway. This is a collaborative project built by a team of 6 executed in 7 days."
               tech="Tech-Stacks"
               techD="Html | CSS | Javascript | Tailwind | MongoDb | Express "
               link="https://zoomcar-backend.herokuapp.com/login"
               a="https://github.com/RaojiPatil/ZoomCar-Clone"
             />
           </Col>
+          <Col md={6} className="project-card">
+            <ProjectCards
+              imgPath="/images/pinterest.png"
+              
+              title="Pinterest clone"
+              
+              description="Pinterest is an image sharing and social media service designed to enable saving and discovery of information. This is a collaborative project built by a team of 6 executed in 7 days."
+              tech="Tech-Stacks"
+              techD="Html | CSS | Javascript | MERN Stack"
+              link="https://pinterest-clone-raoji.netlify.app/"
+              a="https://github.com/RaojiPatil/team-pinterest.git"
+            />
+          </Col>
+
           <Col md={6} className="project-card">
             <ProjectCards
               imgPath="/images/healthmug.png"
@@ -49,6 +63,9 @@ function Projects() {
               a="https://github.com/RaojiPatil/Bewakoof-Website-Clone"
             />
           </Col>
+
+         
+
 
         </Row>
       </Container>
